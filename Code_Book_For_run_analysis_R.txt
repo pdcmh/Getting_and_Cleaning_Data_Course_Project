@@ -1,0 +1,48 @@
+# Read subject data files
+dSubTrain - Variable is used to read subject_train.txt
+dSubTest - Variable is used to read subject_test.txt
+
+# Read activity data files
+dActTrain - Variable is used to read Y_train.txt
+dActTest - Variable is used to read Y_test.txt
+
+#Read data files.
+dTrain  - Variable is used to read X_train.txt
+dTest - Variable is used to read X_test.txt
+
+###############################################################################
+# 1. Merges the training and the test sets to create one data set.
+###############################################################################
+
+# Merge Subject Data Set
+mSubData - Variable to hold merged Subject Data Set
+
+# Merge Activity Data Set
+mActData - Variable to hold merged Activity Data Set 
+
+# Merge Subject and Activity Data
+mData - Variable to hold merged Subject and Activity Data Set 
+
+# Read Feature Data
+dFeatures - Variable is used to read features.txt
+
+# Read Activity Labels 
+actLabels - Variable is used to read activity_labels.txt
+
+# Merge Data Columns
+mSubActData - Variable to temporarily hold merged columns
+
+###############################################################################
+# 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+###############################################################################
+
+# Extracting mean and standard deviation from features.txt
+dFeaturesMeanStd - Variable to hold mean and standard deviation  
+
+
+###############################################################################
+# 3. Uses descriptive activity names to name the activities in the data set
+###############################################################################
+
+aggData - Variable to temporarily hold aggregate data
+
